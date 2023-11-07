@@ -1,0 +1,164 @@
+.nav{
+    width: 100%;
+    height: 90px;
+    background-color: grey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+*{
+    margin: 0;
+}
+.nav img{
+    width: 80px;
+    height: 50px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.select_cntry{
+    width: 30%;
+    height: 40px;
+    margin-left: 10px;
+    border: 2px solid black;
+}
+.searchBox{
+    width: 50%;
+    height: 30px;
+    display: flex;
+    margin-left: 10px;
+}
+.search{
+    width: 100%;
+    height: 36px;
+    border:2px solid black;
+}
+.btn-search{
+    width: 30px;
+    height: 36px;
+    background-color:black;
+}
+.sell_Btn{
+    width: 110px;
+    height: 50px;
+    border-radius: 30px;
+    border-width: 5px;
+    border-left-color: yellow;
+    border-right-color:blue ;
+    border-top-color: aqua;
+    border-bottom-color: blue;
+}
+.category{
+    width: 100%;
+    height: 60px;
+    background-color:white;
+    box-shadow:1px 1px 1px 2px;
+    margin-top: 10px;
+    display: flex;
+    justify-content:left;
+    align-items: center;
+}
+.cat{
+    width: 100%;
+    padding: 10px;
+    border: none;
+}
+.category .cat_options{
+    padding: 10px;
+}
+.category .cat_options:hover{
+    color:blue;
+}
+.banner{
+    width: 90%;
+    height: 300px;
+    box-sizing: border-box;
+   padding: 20px;
+   overflow: hidden;
+   margin: auto;
+}    
+.banner img{
+    width: 100%;
+    height: 100%;
+  object-fit: cover;
+}
+.cards{
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+    gap: 10px;
+    padding: 30px;
+}
+.card{
+    width: 280px;
+    height:320px;
+    border: 1px solid;
+    position: relative;
+}
+.top{
+    width: 100%;
+    height: 200px;
+    box-sizing: border-box;
+    padding: 10px;
+    position: relative;
+    
+}
+.top img{
+    width: 100%;
+    object-fit: cover;
+}
+.bottom{
+   position: absolute;
+   box-sizing: border-box;
+   padding-left: 10px;
+}
+.bot_style{
+    color: #7f9799;
+    font-size: 14px;
+    font-family:'Segoe UI', Tahoma, sans-serif ;
+}
+.box{
+    width: 80px;
+    height: 20px;
+    border-radius: 5px;
+    background-color:rgb(252, 191, 35);
+    top: 15px;
+    left: 4px;
+    position: absolute;
+    
+}
+.box p{
+    font-size:small;
+}
+.heart{
+    width: 30px;
+    height: 20px;
+    position: absolute;
+    top: 15px;
+    right: 12px;
+}
+.footer{
+    width: 100%;
+    height: 200px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+ 
+}
+.foot_options{
+    font-size:small;
+    font-family: sans-serif;
+    padding: 20px;
+}
+.foot_bottom{
+    width:100%;
+    height: 90px;
+    background-color: rgb(6, 68, 68);
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    box-sizing: border-box;
+}
+.foot_bottom p{
+    color: white;
+    font-size: small;
+}
